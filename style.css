@@ -163,14 +163,15 @@ body{
 
     .logos {
         gap: 10px;
+        flex-direction: column; 
     }
 
     .topo img {
-        width: 100px;
+        width: 150px;
     }
 
     .topo img:last-child{
-        width: 250px;
+        width: 350px;
     }
 
     .topo input {
