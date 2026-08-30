@@ -166,15 +166,15 @@ body{
     }
 
     .topo img {
-        width: 150px;
+        width: 100px;
     }
 
     .topo img:last-child{
-        width: 400px;
+        width: 250px;
     }
 
     .topo input {
-        width: 150px;
+        width: 100px;
     }
 
     .cardapio {
