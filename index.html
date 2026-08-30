@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANZONI BURGUER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="topo">
+        <div class="logos">
+            <img src="imagens/logo.png">
+            <img src="imagens/logo-frase.png">
+        </div>
+        <input type="text" placeholder="Pesquisar produto">
+    </div>
+
+    <div class="titulo-categoria hamburgueres">
+        <img src="imagens-topico/topicoH.png">
+    </div>
+
+    <div class="cardapio">
+
+        <div class="produto">
+            <h1>O Clássico</h1>
+            <img src="imagens-reais/classico.png">
+            <p>Pão brioche caseiro, blend artesanal de 120g, queijo muçarela derretido e molho especial da casa.</p>
+            <p class="preco">R$ 34,90</p>
+            <button onclick="adicionarProduto('O Clássico')">ADICIONAR</button>
+        </div>
+
+        <div class="produto">
+            <h1>Bacon Melt</h1>
+            <img src="imagens-reais/bacon_melt.png">
+            <p>Pão brioche caseiro, blend artesanal de 120g, Catupiry cremoso, bacon caramelizado e molho especial da casa.</p>
+            <p class="preco">R$ 39,90</p>
+            <button onclick="adicionarProduto('Bacon Melt')">ADICIONAR</button>
+        </div>
+
+        <div class="produto">
+            <h1>Explosão de Sabor</h1>
+            <img src="imagens-reais/explosao.png">
+            <p>Pão brioche caseiro, blend artesanal de 120g, queijo coalho grelhado com mel, cebola crispy e molho especial da casa.</p>
+            <p class="preco">R$ 44,90</p>
+            <button onclick="adicionarProduto('Explosão de Sabor')">ADICIONAR</button>
+        </div>
+
+    </div>
+
+    <div class="titulo-categoria acompanhamentos">
+        <img src="imagens-topico/topicoA.png">
+    </div>
+
+    <div class="cardapio">
+
+        <div class="produto">
+            <h1>Batata Frita</h1>
+            <img src="imagens-reais/batatatinha.png">
+            <p>Batatas douradas, crocantes por fora e macias por dentro.</p>
+            <p class="preco">R$ 16,90</p>
+            <button onclick="adicionarProduto('Batata Frita')">ADICIONAR</button>
+        </div>
+
+        <div class="produto">
+            <h1>Batata Frita com Cheddar e Bacon</h1>
+            <img src="imagens-reais/batata.png" alt="Batata Frita com Cheddar e Bacon">
+            <p>Batatas douradas e crocantes, cobertas com cheddar cremoso e finalizadas com bacon crocante.</p>
+            <p class="preco">R$ 24,90</p>
+            <button onclick="adicionarProduto('Batata Frita com Cheddar e Bacon')">ADICIONAR</button>
+        </div>
+
+        <div class="produto">
+            <h1>Frango Frito</h1>
+            <img src="imagens-reais/frango.png" alt="Frango Frito">
+            <p>Pedaços de frango suculentos, crocantes por fora e temperados na medida certa.</p>
+            <p class="preco">R$ 19,90</p>
+            <button onclick="adicionarProduto('Frango Frito')">ADICIONAR</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Lanzoni Burguer</p>
+        <p><img src="imagens/instagram.png"> @lanzoniburguer</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
