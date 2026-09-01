@@ -1,4 +1,4 @@
-.topo{
+.topo {
     background-color: #F1EAD0;
     padding: 15px;
     display: flex;
@@ -7,23 +7,22 @@
     gap: 30px;
 }
 
-.logos{
+.logos {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 0px;
 }
 
-.topo img{
+.topo img {
     width: 200px;
-    flex-shrink: 0;
 }
 
 .topo img:last-child {
     width: 500px;
 }
 
-.topo input{
+.topo input {
     width: 220px;
     padding: 12px 15px;
     border: 2px solid #D8CDA8;
@@ -32,111 +31,110 @@
     outline: none;
 }
 
-body{
+body {
     margin: 0;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
 }
 
-.titulo-categoria{
-    display: flex; 
+.titulo-categoria {
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px 0; 
+    margin: 10px;
 }
 
 .titulo-categoria img {
-    object-fit: contain; 
+    object-fit: contain;
 }
 
 .hamburgueres img,
-.acompanhamentos img{
+.acompanhamentos img {
     height: 120px;
 }
 
-.hamburgueres img{
+.hamburgueres img {
     width: 600px;
 }
 
-.acompanhamentos img{
+.acompanhamentos img {
     width: 700px;
 }
 
-.acompanhamentos{
+.acompanhamentos {
     margin-top: -20px;
 }
 
-.cardapio{
+.cardapio {
     width: 90%;
     margin: auto;
-    display: grid; 
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 25px; 
-    padding-bottom: 40px; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding-bottom: 40px;
 }
 
-.produto{
+.produto {
     background-color: #F1EAD0;
     border: 2px solid #D8CDA8;
     border-radius: 20px;
     padding: 20px;
     text-align: center;
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     cursor: pointer;
 }
 
-.produto h1{
+.produto h1 {
     font-size: 25px;
     color: #000000;
-    height: 60px; 
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.produto img{
+.produto img {
     width: 80%;
     height: auto;
     border-radius: 30px;
-    display: block;
     margin-left: auto;
-    margin-right: auto; 
-    margin-bottom: 20px; 
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
-.produto p{
+.produto p {
     font-size: 16px;
-    line-height: 1.5; 
+    line-height: 1.5;
 }
 
-.produto .preco{
+.produto .preco {
     font-size: 22px;
-    font-weight: bold; 
+    font-weight: bold;
     color: #8B0000;
 }
 
-.produto button{
+.produto button {
     background-color: #8B0000;
-    border: none; 
+    border: none;
     border-radius: 10px;
     padding: 12px;
     font-size: 16px;
     color: white;
     font-weight: bold;
-    cursor: pointer; 
+    cursor: pointer;
     margin-top: auto;
 }
 
 .produto:hover {
-    background-color: #D8CDA8;  
+    background-color: #D8CDA8;
 }
 
 .produto button:hover {
     background-color: #650000;
 }
 
-@media (max-width: 1000px){
-    .cardapio{
+@media (max-width: 1000px) {
+    .cardapio {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -144,33 +142,33 @@ body{
         width: 150px;
     }
 
-    .topo img:last-child{
+    .topo img:last-child {
         width: 350px;
     }
 
-    .topo input{
+    .topo input {
         width: 100px;
         font-size: 12px;
     }
 }
 
 @media (max-width: 700px) {
-    .topo{
+    .topo {
         padding: 10px;
         gap: 10px;
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     .logos {
         gap: 10px;
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     .topo img {
         width: 150px;
     }
 
-    .topo img:last-child{
+    .topo img:last-child {
         width: 350px;
     }
 
@@ -183,19 +181,19 @@ body{
         grid-template-columns: 1fr;
     }
 
-    .hamburgueres img{
+    .hamburgueres img {
         width: 300px;
         height: 100px;
     }
 
-    .acompanhamentos img{
+    .acompanhamentos img {
         width: 400px;
         height: 150px;
         margin-top: -20px;
     }
 }
 
-footer{
+footer {
     background-color: #F1EAD0;
     color: #000000;
     text-align: center;
@@ -203,7 +201,7 @@ footer{
     margin-top: 20px;
 }
 
-footer img{
+footer img {
     width: 30px;
     vertical-align: middle;
 }
